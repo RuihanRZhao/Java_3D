@@ -8,10 +8,11 @@ import java.util.ArrayList;
 
 public class texture {
     public int[] pixels;
+    public String name;
     private File location;
     public final int size;
 
-    public texture(String locate, int size){
+    public texture(String name, String locate, int size){
         this.location = new File(locate);
         this.size = size;
         pixels = new int[size*size];
@@ -20,16 +21,16 @@ public class texture {
     private void Load() {
         try{
             BufferedImage image= ImageIO.read(location);
-            image.getRGB(0,0,image.getWidth(),image.getHeight(),pixels,0,image.getWidth());
+            image.getRGB(0, 0, image.getWidth(), image.getHeight(), pixels, 0, image.getWidth());
         } catch(IOException event){
             event.printStackTrace();
         }
     }
 
-    public static ArrayList<texture> Texture_Input(int No, String[] locate, int[] size){
+    public static ArrayList<texture> Texture_Input(int No, String[] name, String[] locate, int[] size){
         ArrayList<texture> output=new ArrayList<texture>();
-            for(int i=0;i<No;i++){
-                output.add(new texture(locate[i],size[i]));
+            for(int i = 0; i < No; i++){
+                output.add(new texture(name[i], locate[i], size[i]));
             }
         return output;
     }

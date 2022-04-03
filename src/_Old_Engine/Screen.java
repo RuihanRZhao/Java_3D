@@ -44,37 +44,31 @@ public class Screen {
             boolean hit = false;//was a wall hit
             int side=0;//was the wall vertical or horizontal
             //Figure out the step direction and initial distance to a side
-            if (rayDirX < 0)
-            {
+            if (rayDirX < 0) {
                 stepX = -1;
                 sideDistX = (camera.xPos - mapX) * deltaDistX;
             }
-            else
-            {
+            else {
                 stepX = 1;
                 sideDistX = (mapX + 1.0 - camera.xPos) * deltaDistX;
             }
-            if (rayDirY < 0)
-            {
+            if (rayDirY < 0) {
                 stepY = -1;
                 sideDistY = (camera.yPos - mapY) * deltaDistY;
             }
-            else
-            {
+            else {
                 stepY = 1;
                 sideDistY = (mapY + 1.0 - camera.yPos) * deltaDistY;
             }
             //Loop to find where the ray hits a wall
             while(!hit) {
                 //Jump to next square
-                if (sideDistX < sideDistY)
-                {
+                if (sideDistX < sideDistY) {
                     sideDistX += deltaDistX;
                     mapX += stepX;
                     side = 0;
                 }
-                else
-                {
+                else {
                     sideDistY += deltaDistY;
                     mapY += stepY;
                     side = 1;

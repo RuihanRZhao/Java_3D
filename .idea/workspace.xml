@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f62e8b0e-793f-44f1-a647-ffd7063076bb" name="Changes" comment="" />
+    <list default="true" id="f62e8b0e-793f-44f1-a647-ffd7063076bb" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/Engine/camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Engine/position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/414Miniproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MC_Like_Game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Craft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System/texture_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/System/texture_information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +106,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,10 +118,10 @@
       <recent name="C:\Users\fouxz\Documents\GitHub\414Miniproject\Image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.texture_information">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_Old_Engine.Game" />
-      <module name="414Miniproject" />
+      <module name="MC_Like_Game" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -116,7 +134,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Craft" />
-      <module name="414Miniproject" />
+      <module name="MC_Like_Game" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -126,7 +144,7 @@
     </configuration>
     <configuration name="texture_information" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="System.texture_information" />
-      <module name="414Miniproject" />
+      <module name="MC_Like_Game" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="System.*" />
@@ -138,15 +156,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.texture_information" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.texture_information" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -160,10 +176,24 @@
       <updated>1648915651865</updated>
       <workItem from="1648915653499" duration="19341000" />
       <workItem from="1648968309981" duration="1803000" />
+      <workItem from="1648970709988" duration="38000" />
+      <workItem from="1648970760484" duration="97000" />
+      <workItem from="1648970869564" duration="9337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
