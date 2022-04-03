@@ -1,4 +1,4 @@
-package Engine;
+package _Old_Engine;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -90,8 +90,7 @@ public class Game extends JFrame implements Runnable{
             long now = System.nanoTime();
             delta = delta + ((now-lastTime) / ns);
             lastTime = now;
-            while (delta >= 1)//Make sure update is only happening 60 times a second
-            {
+            while (delta >= 1){//Make sure update is only happening 60 times a second
                 //handles all of the logic restricted time
                 screen.update(camera, pixels);
                 camera.update(map);
@@ -99,8 +98,5 @@ public class Game extends JFrame implements Runnable{
             }
             render();//displays to the screen unrestricted time
         }
-    }
-    public static void main(String [] args) {
-        Game game = new Game();
     }
 }

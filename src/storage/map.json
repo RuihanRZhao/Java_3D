@@ -3,7 +3,7 @@
   "position": {"x":0, "y":0,"z":0},
   "cargo": {},
   "MapChange": [
-    {"locate": {"x":0, "y":0,"z":0}, "NewItem": "0x0001"}
+    {"locate": {"x":0, "y":0,"z":0}, "Item": "0x0001"}
   ]
 
 

@@ -1,35 +1,36 @@
 package Engine;
 
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import javax.imageio.ImageIO;
+import java.util.ArrayList;
 
-public class Texture {
+public class texture {
     public int[] pixels;
-    private String loc;
-    public final int SIZE;
+    private File location;
+    public final int size;
 
-    public Texture(String location, int size) {
-        loc = location;
-        SIZE = size;
-        pixels = new int[SIZE * SIZE];
-        load();
+    public texture(String locate, int size){
+        this.location = new File(locate);
+        this.size = size;
+        pixels = new int[size*size];
+        Load();
     }
-
-    private void load() {
-        try {
-            BufferedImage image = ImageIO.read(new File(loc));
-            int w = image.getWidth();
-            int h = image.getHeight();
-            image.getRGB(0, 0, w, h, pixels, 0, w);
-        } catch (IOException e) {
-            e.printStackTrace();
+    private void Load() {
+        try{
+            BufferedImage image= ImageIO.read(location);
+            image.getRGB(0,0,image.getWidth(),image.getHeight(),pixels,0,image.getWidth());
+        } catch(IOException event){
+            event.printStackTrace();
         }
     }
 
-    public static Texture wood = new Texture("../../image/brick.png", 64);
-    public static Texture brick = new Texture("../../image/brick.png", 64);
-    public static Texture bluestone = new Texture("../../image/glass.png", 64);
-    public static Texture stone = new Texture("../../image/walkstone.png", 64);
+    public static ArrayList<texture> Texture_Input(int No, String[] locate, int[] size){
+        ArrayList<texture> output=new ArrayList<texture>();
+            for(int i=0;i<No;i++){
+                output.add(new texture(locate[i],size[i]));
+            }
+        return output;
+    }
 }
