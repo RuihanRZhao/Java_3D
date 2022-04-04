@@ -79,7 +79,7 @@ public class Game extends JFrame implements Runnable{
             return;
         }
         Graphics g = bs.getDrawGraphics();
-        g.drawImage(image, 0, 0, image.getWidth(), image.getHeight(), null);
+        g.drawImage(image, 0, 0, image.4.5getWidth(), image.getHeight(), null);
         bs.show();
     }
     public void run() {

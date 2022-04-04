@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62e8b0e-793f-44f1-a647-ffd7063076bb" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/Engine/camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Engine/position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/wood.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/414Miniproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MC_Like_Game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Craft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Engine/control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System/texture_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/System/texture_information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/texture" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27FV6lVE9w6Q14g0URTA6uw2uWD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -105,6 +112,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -112,6 +120,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fouxz\Documents\GitHub\MC_Like_Game" />
       <recent name="C:\Users\fouxz\Documents\GitHub\414Miniproject\src" />
       <recent name="C:\Users\fouxz\Documents\GitHub\414Miniproject\src\Engine\image" />
       <recent name="C:\Users\fouxz\Documents\GitHub\414Miniproject\src\Engine" />
@@ -178,7 +187,8 @@
       <workItem from="1648968309981" duration="1803000" />
       <workItem from="1648970709988" duration="38000" />
       <workItem from="1648970760484" duration="97000" />
-      <workItem from="1648970869564" duration="9337000" />
+      <workItem from="1648970869564" duration="14865000" />
+      <workItem from="1649065571545" duration="815000" />
     </task>
     <servers />
   </component>
@@ -195,5 +205,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -32,7 +32,7 @@ public class control extends JFrame implements Runnable{
         image = new BufferedImage(screen_width, screen_height, BufferedImage.TYPE_INT_RGB);         //Image
         pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
         texture_List = new texture_information("src/storage/texture");
-        Position = new position(5,5,0,1,0,0,0,-.66,0);
+        Position = new position(4.5,4.5,0,1,0,0,0,-.66,0);
         Camera = new camera(Position);
         Screen = new screen(map, texture_List);
 
