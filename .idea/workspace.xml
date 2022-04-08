@@ -2,25 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62e8b0e-793f-44f1-a647-ffd7063076bb" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/image/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/wood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Craft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Craft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/axis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/axis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Camera.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Screen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/_Old_Engine/Texture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/texture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/texture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/y.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/y.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/z.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/z.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/System/FileAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/System/FileAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/System/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/System/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/System/texture_information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/System/texture_information.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/texture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Engine/camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_Old_Engine/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/_Old_Engine/Texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/texture" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +112,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -189,6 +190,8 @@
       <workItem from="1648970760484" duration="97000" />
       <workItem from="1648970869564" duration="14865000" />
       <workItem from="1649065571545" duration="815000" />
+      <workItem from="1649347006555" duration="4084000" />
+      <workItem from="1649412829236" duration="2773000" />
     </task>
     <servers />
   </component>
