@@ -1,6 +1,6 @@
-import Engine.Map;
-import Engine.control;
+import Engine.*;
 import System.*;
+
 import java.util.ArrayList;
 
 public class Craft {

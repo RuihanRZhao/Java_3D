@@ -25,6 +25,6 @@ public class map_read extends FileAction {
 
 
     public static void main(String[] args){//for testing usage
-        map_read a=new map_read("src/storage/map");
+        map_read a=new map_read("/storage/map");
     }
 }

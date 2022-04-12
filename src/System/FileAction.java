@@ -5,22 +5,22 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 
-public class FileAction {
-    public File target;
+public class FileAction extends java.io.File {
+
     public FileAction(String $target){
-        this.target = new File($target);
+        super($target);
     }
 
     public ArrayList<String> Input(){
         ArrayList<String> input = new ArrayList<String>();
         try{
-            BufferedReader Read = new BufferedReader(new FileReader(this.target));
-            IO.print("$ Loading File: "+this.target+"\n");
+            BufferedReader Read = new BufferedReader(new FileReader(this.getAbsoluteFile()));
+            IO.print("$ Loading File: "+this.getPath()+"\n");
             String Get;
             while((Get=Read.readLine())!=null){
                 input.add(Get);
             }
-            IO.print("$ Loading of "+this.target+" done\n\n");
+            IO.print("$ Loading of "+this.getPath()+" done\n\n");
         } catch (IOException event) {
             event.printStackTrace();
         }
@@ -28,8 +28,8 @@ public class FileAction {
     }
     public void Output(ArrayList<String> output){
         try{
-            BufferedWriter Write = new BufferedWriter(new FileWriter(target));
-            IO.print("$ Writing File: "+this.target+"\n");
+            BufferedWriter Write = new BufferedWriter(new FileWriter(this.getAbsoluteFile()));
+            IO.print("$ Writing File: "+this.getPath()+"\n");
             String Get;
             for(String i : output){
                 Write.write(i+"\n");
