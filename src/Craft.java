@@ -1,7 +1,6 @@
 import Engine.Map;
 import Engine.control;
 import System.*;
-
 import java.util.ArrayList;
 
 public class Craft {

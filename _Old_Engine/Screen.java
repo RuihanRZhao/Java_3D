@@ -35,7 +35,7 @@ public class Screen {
             //length of ray from current position to next x or y-side
             double sideDistX;
             double sideDistY;
-            //Length of ray from one side to next in map.json
+            //Length of ray from one side to next in map
             double deltaDistX = Math.sqrt(1 + (rayDirY*rayDirY) / (rayDirX*rayDirX));
             double deltaDistY = Math.sqrt(1 + (rayDirX*rayDirX) / (rayDirY*rayDirY));
             double perpWallDist;
@@ -74,7 +74,7 @@ public class Screen {
                     side = 1;
                 }
                 //Check if ray has hit a wall
-                //System.out.println(mapX + ", " + mapY + ", " + map.json[mapX][mapY]);
+                //System.out.println(mapX + ", " + mapY + ", " + map[mapX][mapY]);
                 if(map[mapX][mapY] > 0) hit = true;
             }
             //Calculate distance to the point of impact
