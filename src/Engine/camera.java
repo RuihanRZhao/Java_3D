@@ -48,15 +48,15 @@ public class camera implements KeyListener{
     }
 
     public static void update(int[][] map){
-        //position change by WASD
+        // position change by WASD
         if(MT.move.up)    makeMove(map, P.x.direction, P.y.direction);
         if(MT.move.down)  makeMove(map, -P.x.direction, -P.y.direction);
         if(MT.move.left)  makeMove(map, -P.y.direction, P.x.direction);
         if(MT.move.right) makeMove(map, P.y.direction, -P.x.direction);
-        //direction change by moving mouse
+        // direction change by moving mouse
         if(MT.point.left) makeRotate(RotateSpeed);
         if(MT.point.right) makeRotate(-RotateSpeed);
-        IO.print("Position: ("+P.x.position+", "+P.y.position+") \n");
+        //IO.print("$ Position: ("+P.x.position+", "+P.y.position+") \n");
     }
     public static void makeRotate(double speed){
         double oldxDir=P.x.direction;

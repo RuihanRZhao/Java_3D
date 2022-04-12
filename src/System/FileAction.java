@@ -15,12 +15,12 @@ public class FileAction {
         ArrayList<String> input = new ArrayList<String>();
         try{
             BufferedReader Read = new BufferedReader(new FileReader(this.target));
-            IO.print("$ Reading File: "+this.target+"\n");
+            IO.print("$ Loading File: "+this.target+"\n");
             String Get;
             while((Get=Read.readLine())!=null){
                 input.add(Get);
             }
-            IO.print("$ Done\n\n");
+            IO.print("$ Loading of "+this.target+" done\n\n");
         } catch (IOException event) {
             event.printStackTrace();
         }
