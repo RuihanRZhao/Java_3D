@@ -2,44 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62e8b0e-793f-44f1-a647-ffd7063076bb" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/build/image/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/image/stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/image/window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/image/wood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Craft.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Craft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/MotionTrend.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/MotionTrend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/axis.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/axis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/camera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/control.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/position.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/screen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/texture.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/texture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/x.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/x.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/y.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/y.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Engine/z.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/Engine/z.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/System/FileAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/System/FileAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/System/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/System/IO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/System/map_read.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/System/map_read.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/System/texture_information.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/System/texture_information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/build/storage/texture" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/MotionTrend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/MotionTrend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/camera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/screen_new.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/screen_new.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/texture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/texture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/System/FileAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/System/FileAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/System/map_read.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/System/map_read.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/Engine/direction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MC_Like_Game/storage/texture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Craft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Engine/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Engine/control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/screen_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/screen_new.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System/FileAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/System/FileAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System/map_read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/System/map_read.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/storage/texture" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/texture" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +195,7 @@
       <workItem from="1649412829236" duration="6271000" />
       <workItem from="1649683528945" duration="10281000" />
       <workItem from="1649705797099" duration="3828000" />
-      <workItem from="1649799320988" duration="6231000" />
+      <workItem from="1649799320988" duration="9508000" />
     </task>
     <servers />
   </component>
