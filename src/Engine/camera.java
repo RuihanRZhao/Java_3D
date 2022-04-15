@@ -56,7 +56,7 @@ public class camera implements KeyListener{
         // direction change by moving mouse
         if(MT.point.left) makeRotate(RotateSpeed);
         if(MT.point.right) makeRotate(-RotateSpeed);
-        //IO.print("$ Position: ("+P.x.position+", "+P.y.position+") \n");
+
     }
     public static void makeRotate(double speed){
         double oldxDir=P.x.direction;
@@ -65,10 +65,16 @@ public class camera implements KeyListener{
         double oldxPlane = P.x.plane;
         P.x.plane = P.x.plane*Math.cos(speed) - P.y.plane*Math.sin(speed);
         P.y.plane = oldxPlane*Math.sin(speed) + P.y.plane*Math.cos(speed);
+
+
+        IO.print("$ Direction: ("+P.x.direction+", "+P.y.direction+") \n\t（"+(float)P.x.plane+", "+(float)P.y.plane+"）\n\n");
     }
     public static void makeMove(int[][] map, double X, double Y){
         if(map[(int)(P.x.position + X * MoveSpeed)][(int)P.y.position] == 0) P.x.position+=X* MoveSpeed;
         if(map[(int)P.x.position][(int)(P.y.position + Y * MoveSpeed)] ==0) P.y.position+=Y* MoveSpeed;
+
+
+        IO.print("$ Direction: ("+P.x.direction+", "+P.y.direction+") \n\t（"+(float)P.x.plane+", "+(float)P.y.plane+"）\n\n");
     }
 }
 class MotionTrend{

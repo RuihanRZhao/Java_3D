@@ -12,7 +12,6 @@ public class screen_new {
     }
 
     public static int[] update(camera cam, int[] pixel){
-
         return pixel;
     }
 }

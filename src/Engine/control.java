@@ -31,8 +31,8 @@ public class control extends JFrame implements Runnable{
         Graph_Thread = new Thread(this);                                                      //Thread
         image = new BufferedImage(screen_width, screen_height, BufferedImage.TYPE_INT_RGB);         //Image
         pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();
-        texture_List = new texture_information("src/storage/texture");
-        Position = new position(24.5,49.5,0,1,0,0,0,-.66,0);
+        texture_List = new texture_information("storage/texture");
+        Position = new position(24.5,49.5,0,1,0,0,0,-0.66 ,0);
         Camera = new camera(Position);
         Screen = new screen(map,texture_List);
 
