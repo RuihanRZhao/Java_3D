@@ -23,27 +23,27 @@ public class camera implements KeyListener{
     @Override
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
-            case (KeyEvent.VK_A)     -> MT.move.left    = true;
-            case (KeyEvent.VK_D)     -> MT.move.right   = true;
-            case (KeyEvent.VK_W)     -> MT.move.up      = true;
-            case (KeyEvent.VK_S)     -> MT.move.down    = true;
-            case (KeyEvent.VK_LEFT)  -> MT.point.left   = true;
-            case (KeyEvent.VK_RIGHT) -> MT.point.right  = true;
-            case (KeyEvent.VK_UP)    -> MT.point.up     = true;
-            case (KeyEvent.VK_DOWN)  -> MT.point.down   = true;
+            case (KeyEvent.VK_A):     MT.move.left    = true; break;
+            case (KeyEvent.VK_D):     MT.move.right   = true; break;
+            case (KeyEvent.VK_W):     MT.move.up      = true; break;
+            case (KeyEvent.VK_S):     MT.move.down    = true; break;
+            case (KeyEvent.VK_LEFT):  MT.point.left   = true; break;
+            case (KeyEvent.VK_RIGHT): MT.point.right  = true; break;
+            case (KeyEvent.VK_UP):    MT.point.up     = true; break;
+            case (KeyEvent.VK_DOWN):  MT.point.down   = true; break;
         }
     }
     @Override
     public void keyReleased(KeyEvent e) {
         switch (e.getKeyCode()) {
-            case (KeyEvent.VK_A)     -> MT.move.left    = false;
-            case (KeyEvent.VK_D)     -> MT.move.right   = false;
-            case (KeyEvent.VK_W)     -> MT.move.up      = false;
-            case (KeyEvent.VK_S)     -> MT.move.down    = false;
-            case (KeyEvent.VK_LEFT)  -> MT.point.left   = false;
-            case (KeyEvent.VK_RIGHT) -> MT.point.right  = false;
-            case (KeyEvent.VK_UP)    -> MT.point.up     = false;
-            case (KeyEvent.VK_DOWN)  -> MT.point.down   = false;
+            case (KeyEvent.VK_A):     MT.move.left    = false; break;
+            case (KeyEvent.VK_D):     MT.move.right   = false; break;
+            case (KeyEvent.VK_W):     MT.move.up      = false; break;
+            case (KeyEvent.VK_S):     MT.move.down    = false; break;
+            case (KeyEvent.VK_LEFT):  MT.point.left   = false; break;
+            case (KeyEvent.VK_RIGHT): MT.point.right  = false; break;
+            case (KeyEvent.VK_UP):    MT.point.up     = false; break;
+            case (KeyEvent.VK_DOWN):  MT.point.down   = false; break;
         }
     }
 
