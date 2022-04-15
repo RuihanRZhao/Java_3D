@@ -23,9 +23,7 @@ public class texture {
         try{
             BufferedImage image= ImageIO.read(location);
             image.getRGB(0, 0, image.getWidth(), image.getHeight(), pixels, 0, image.getWidth());
-            IO.print("$ Loading image "+location+" succeed.\n");
         } catch(IOException event){
-            IO.print("$ Loading image "+location+" loading failed.\n\n");
             event.printStackTrace();
         }
     }

@@ -15,12 +15,11 @@ public class FileAction extends java.io.File {
         ArrayList<String> input = new ArrayList<String>();
         try{
             BufferedReader Read = new BufferedReader(new FileReader(this.getAbsoluteFile()));
-            IO.print("$ Loading File: "+this.getPath()+"\n");
+
             String Get;
             while((Get=Read.readLine())!=null){
                 input.add(Get);
             }
-            IO.print("$ Loading of "+this.getPath()+" done\n\n");
         } catch (IOException event) {
             event.printStackTrace();
         }

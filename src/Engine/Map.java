@@ -9,7 +9,7 @@ public class Map {
     public int[][] map;
     public int Width = 1600, Height = 900;
     public Map(){
-        map= new map_read("src/storage/map").map;
+        map= new map_read("storage/map").map;
 
     }
     public int[][] MapPrint(){
