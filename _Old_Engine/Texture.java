@@ -32,8 +32,9 @@ public class Texture {
         }
     }
 
-    public static Texture wood = new Texture("/image/wood.png", 64);
-    public static Texture brick = new Texture("/image/brick.png", 64);
-    public static Texture bluestone = new Texture("/image/glass.png", 64);
-    public static Texture stone = new Texture("/image/walkstone.png", 64);
+    public static Texture wood = new Texture("image/wood.png", 64);
+    public static Texture brick = new Texture("image/brick.png", 64);
+    public static Texture bluestone = new Texture("image/glass.png", 64);
+    public static Texture stone = new Texture("image/walkstone.png", 64);
 }
+
