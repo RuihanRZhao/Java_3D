@@ -1,5 +1,5 @@
-2
-wood, src/image/wood.png, 64
-grass, src/image/grass.png, 64
-window, src/image/window.png, 64
-stone, src/image/stone.png, 64
+4
+stone, image/stone.png, 64
+wood, image/wood.png, 64
+grass, image/grass.png, 64
+window, image/window.png, 64
